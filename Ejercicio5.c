@@ -1,7 +1,7 @@
 /*Dep3_Prog5:
 Verificar a qué elemento (Fuego, Tierra, Aire. Agua) 
 corresponde un signo del zodiaco*/
-#include <studio.h>
+#include <stdio.h>
 int main()
 {
     int signo;
