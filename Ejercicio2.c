@@ -4,13 +4,13 @@ int main()
 {
         int hora, minutos, segundos;
         printf("\n Introduce las horas");
-        scanf("%d", hora);
+        scanf("%d", &hora);
         int hora, minutos, segundos;
         printf("\n Introduce las minutos");
-        scanf("%d", minutos);
+        scanf("%d", &minutos);
         int hora, minutos, segundos;
         printf("\n Introduce las segundos");
-        scanf("%d", segundos);
+        scanf("%d", &segundos);
 
         if (    (horas>= 0 && horas23<=) &&    
                 (minutos>= 0 && minutos59<=) &&
@@ -21,7 +21,7 @@ int main()
         }
         else
         {
-            printf("\n El formato de hora es incorrecto");
+            printf("\n El formato de hora es incorrecta");
         }
         return 0;
 }
