@@ -1,5 +1,5 @@
 /*Dep3_Prog2:Básico*/
-*include <stdio.h>
+#include <stdio.h>
 int main()
 {
         int hora, minutos, segundos;
