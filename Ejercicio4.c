@@ -1,26 +1,27 @@
 /*Dep3_Prog4:
 Verificar si es par e impar*/
-#include <studio.h>
+#include <stdio.h>
 
-int main;()
+int main ()
 {
+
     char letra;
-    print("\n Introduce una letra ");
+    printf("\n Introduce la letra");
     scanf("%c", &letra);
 
-    if ( (letra == "a" || letra == "A") ||
-         (letra == "e" || letra == "E") ||
-         (letra == "i" || letra == "I") ||
-         (letra == "o" || letra == "O") ||
-         (letra == "u" || letra == "U") 
-
-        ) 
-    {    
-        printf("\n ES UNA VOCAL");
+    if ( (letra == 'a' || letra == 'A') || 
+         (letra == 'e' || letra == 'E') || 
+         (letra == 'i' || letra == 'I') || 
+         (letra == 'o' || letra == 'O') || 
+         (letra == 'u' || letra == 'U')  )
+    {
+        printf("\n Es una VOCAL");
     }
     else
     {
-        printf("\n NO ES VOCAL");
+        printf("\n No es una VOCAL");
     }
+
     return 0;
 }
+
