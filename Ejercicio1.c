@@ -1,6 +1,6 @@
 /*Dep3_Prog1:Básico*/
 
-*include <stdio.h>
+#include <stdio.h>
 
 int main()
 {
