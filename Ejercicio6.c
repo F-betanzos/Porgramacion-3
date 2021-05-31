@@ -1,7 +1,6 @@
 #include <stdio.h>
 /* Contador que cuente el numero de veces que ahorras y nos diga el acumulado ahorrado */
 
-
 int main()
 {
     int banco; //Este sera mi acumulador//
